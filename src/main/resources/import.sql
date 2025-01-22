@@ -8,3 +8,19 @@ INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_d
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Ori and the Blind Forest', 4, 2015, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/8.png', 'Embark on a visually stunning journey in a forest filled with peril in this heartfelt adventure.', 'Ori and the Blind Forest is a visually stunning action-platformer that tells the tale of a young orphan destined for heroics. The game features hand-painted artwork, meticulously animated character performances, and a fully orchestrated score, offering a deeply emotional story about love, sacrifice, and hope.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Cuphead', 4.6, 2017, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/9.png', 'Engage in relentless boss battles in this 1930s cartoon-inspired run-and-gun game.', 'Cuphead is a classic run-and-gun action game heavily focused on boss battles. Inspired by 1930s cartoons, the visuals and audio are painstakingly created with the same techniques of the era, including traditional hand-drawn cel animation, watercolor backgrounds, and original jazz recordings.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Sonic CD', 4, 1993, 'Platform', 'Sega CD, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/10.png', 'Join Sonic in a time-traveling adventure to save Little Planet from Dr. Robotnik.', 'Sonic CD is a 2D platform game where players control Sonic the Hedgehog as he attempts to save the mystical Little Planet from Dr. Robotnik. The game introduces time travel, allowing players to access different versions of levels (past, present, and future) and features the debut of characters like Amy Rose and Metal Sonic.');
+
+INSERT INTO tb_game_list (name) VALUES ('Sandbox, Adventure, RPG');
+INSERT INTO tb_game_list (name) VALUES ('Plataform');
+
+
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 1, 0);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 2, 1);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 3, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 4, 3);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 5, 4);
+
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 6, 0);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 7, 1);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 8, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 9, 3);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
